@@ -15,6 +15,8 @@
 
   html {
     scroll-behavior: smooth;
+    /* Keep section headings clear of the fixed nav on anchor jumps. */
+    scroll-padding-top: 96px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
